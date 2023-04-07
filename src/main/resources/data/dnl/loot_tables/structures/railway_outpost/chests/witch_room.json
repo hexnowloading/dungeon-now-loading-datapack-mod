@@ -207,7 +207,7 @@
               "function": "minecraft:set_name",
               "name": [
                 {
-                  "text": "Arrow of Fugu",
+                  "translate": "Arrow of Fugu",
                   "color": "gold",
                   "italic": false
                 }

@@ -17,16 +17,17 @@ scoreboard objectives add constant dummy
 scoreboard players set #lcg constant 1103515245
 execute unless score #lcg dnl.math matches ..0 unless score #lcg dnl.math matches 1.. run function dnl:util/rng/zprivate/uuid_reset
 scoreboard objectives add dnl.bossbar_id dummy
-bossbar add dnl:bossbar0 {"text": "Reserved", "color": "aqua"}
-bossbar add dnl:bossbar1 {"text": "Reserved", "color": "aqua"}
-bossbar add dnl:bossbar2 {"text": "Reserved", "color": "aqua"}
-bossbar add dnl:bossbar3 {"text": "Reserved", "color": "aqua"}
-bossbar add dnl:bossbar4 {"text": "Reserved", "color": "aqua"}
-bossbar add dnl:bossbar5 {"text": "Reserved", "color": "aqua"}
-bossbar add dnl:bossbar6 {"text": "Reserved", "color": "aqua"}
-bossbar add dnl:bossbar7 {"text": "Reserved", "color": "aqua"}
-bossbar add dnl:bossbar8 {"text": "Reserved", "color": "aqua"}
-bossbar add dnl:bossbar9 {"text": "Reserved", "color": "aqua"}
+bossbar add dnl:bossbar0 {"translate": "Reserved", "color": "aqua"}
+bossbar add dnl:bossbar1 {"translate": "Reserved", "color": "aqua"}
+bossbar add dnl:bossbar2 {"translate": "Reserved", "color": "aqua"}
+bossbar add dnl:bossbar3 {"translate": "Reserved", "color": "aqua"}
+bossbar add dnl:bossbar4 {"translate": "Reserved", "color": "aqua"}
+bossbar add dnl:bossbar5 {"translate": "Reserved", "color": "aqua"}
+bossbar add dnl:bossbar6 {"translate": "Reserved", "color": "aqua"}
+bossbar add dnl:bossbar7 {"translate": "Reserved", "color": "aqua"}
+bossbar add dnl:bossbar8 {"translate": "Reserved", "color": "aqua"}
+bossbar add dnl:bossbar9 {"translate": "Reserved", "color": "aqua"}
+execute if score #dnl.developer_mode dnl.boolean matches 1 run tellraw @a {"translate": "Datapack has been reloaded!", "color": "gray", "italic": false}
 function dnl:reaper_framework/event_handler/in_world_setting/world_load
 scoreboard objectives add dnl.timer.hastening dummy
 scoreboard objectives add dnl.timer.lightning_storm dummy
@@ -79,7 +80,6 @@ team add dnl.no_collision
 team modify dnl.no_collision collisionRule pushOwnTeam
 execute unless score #dnl.global_lid dnl.lid matches 0.. run scoreboard players set #dnl.global_lid dnl.lid 0
 advancement grant @a only dnl:story/general/new_start
-say reloaded
 scoreboard objectives add dnl.raidbar_id dummy
 bossbar add dnl:raidbar0 {"translate": "Reserved", "color": "aqua"}
 bossbar add dnl:raidbar1 {"translate": "Reserved", "color": "aqua"}

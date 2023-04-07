@@ -1,9 +1,9 @@
 modLoader="javafml" #mandatory
-loaderVersion="[44,)"
+loaderVersion="[43,)"
 license="All rights reserved"
 [[mods]]
 modId="dungeonnowloading"
-version="18.0-1.19.3"
+version="18.0-1.19.2"
 displayName="Dungeon Now Loading Mod"
 logoFile="pack.png"
 credits="Hexnowloading"
@@ -18,12 +18,12 @@ Have fun!
 [[dependencies.dungeonnowloading]]
     modId="forge"
     mandatory=true
-    versionRange="[44,)"
+    versionRange="[43,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.dungeonnowloading]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19.3,1.20)"
+    versionRange="[1.19.2,1.20)"
     ordering="NONE"
     side="BOTH"

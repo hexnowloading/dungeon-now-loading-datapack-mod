@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"Abjures\",display:{Name:'{\"text\":\"Abjures\\'s Head\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"translate\":\"1000 fkdr btw lolmao\",\"color\":\"gray\",\"italic\":false}']}}"
+              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"Abjures\",display:{Name:'{\"translate\":\"Abjures\\'s Head\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"translate\":\"1000 fkdr btw lolmao\",\"color\":\"gray\",\"italic\":false}']}}"
             }
           ]
         }

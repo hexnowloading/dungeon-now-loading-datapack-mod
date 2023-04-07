@@ -16,7 +16,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Dungeon Map\",\"color\":\"#008709\",\"italic\":false}',Lore:['{\"text\":\"Forgotten Field\",\"color\":\"gray\",\"italic\":false}'],MapColor:4554807},HideFlags:32,CustomModelData:4040010,dnl.map:1b,dnl.forgotten_field:1b}"
+                            "tag": "{display:{Name:'{\"translate\":\"Dungeon Map\",\"color\":\"#008709\",\"italic\":false}',Lore:['{\"translate\":\"Forgotten Field\",\"color\":\"gray\",\"italic\":false}'],MapColor:4554807},HideFlags:32,CustomModelData:4040010,dnl.map:1b,dnl.forgotten_field:1b}"
                         }
                     ]
                 }
