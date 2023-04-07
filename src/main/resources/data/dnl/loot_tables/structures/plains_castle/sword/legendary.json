@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{display:{Lore:['{\"text\":\"Treasure\",\"color\":\"dark_aqua\",\"italic\":false}']},Enchantments:[{id:\"minecraft:sharpness\",lvl:6s}],dnl.item:1b,dnl.treasure:1b,dnl.castle:1b}"
+                            "tag": "{display:{Lore:['{\"translate\":\"Treasure\",\"color\":\"dark_aqua\",\"italic\":false}']},Enchantments:[{id:\"minecraft:sharpness\",lvl:6s}],dnl.item:1b,dnl.treasure:1b,dnl.castle:1b}"
                         }
                     ]
                 }

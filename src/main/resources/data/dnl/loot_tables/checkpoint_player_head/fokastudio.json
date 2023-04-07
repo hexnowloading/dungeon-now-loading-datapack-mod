@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"FokaStudio\",display:{Name:'{\"text\":\"FokaStudio\\'s Head\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"translate\":\"[Creator]\",\"color\":\"red\",\"italic\":false}','{\"translate\":\"The Maid Who Leaves Fate to the Dream of\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"Eternity\",\"color\":\"gray\",\"italic\":false}']}}"
+              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"FokaStudio\",display:{Name:'{\"translate\":\"FokaStudio\\'s Head\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"translate\":\"[Creator]\",\"color\":\"red\",\"italic\":false}','{\"translate\":\"The Maid Who Leaves Fate to the Dream of\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"Eternity\",\"color\":\"gray\",\"italic\":false}']}}"
             }
           ]
         }

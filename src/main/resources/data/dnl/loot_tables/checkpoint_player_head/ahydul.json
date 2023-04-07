@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"Ahydul\",display:{Name:'{\"text\":\"Ahydul\\'s Head\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"translate\":\"The cake is not a lie\",\"color\":\"gray\",\"italic\":false}']}}"
+              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"Ahydul\",display:{Name:'{\"translate\":\"Ahydul\\'s Head\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"translate\":\"The cake is not a lie\",\"color\":\"gray\",\"italic\":false}']}}"
             }
           ]
         }

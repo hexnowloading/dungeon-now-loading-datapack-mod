@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"IOD_Peak\",display:{Name:'{\"text\":\"IOD_Peak\\'s Head\",\"color\":\"dark_purple\",\"italic\":false}',Lore:['{\"translate\":\"[Discord Helper]\",\"color\":\"red\",\"italic\":false}','{\"translate\":\"SAVE ME!\",\"color\":\"gray\",\"italic\":false}']}}"
+              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"IOD_Peak\",display:{Name:'{\"translate\":\"IOD_Peak\\'s Head\",\"color\":\"dark_purple\",\"italic\":false}',Lore:['{\"translate\":\"[Discord Helper]\",\"color\":\"red\",\"italic\":false}','{\"translate\":\"SAVE ME!\",\"color\":\"gray\",\"italic\":false}']}}"
             }
           ]
         }

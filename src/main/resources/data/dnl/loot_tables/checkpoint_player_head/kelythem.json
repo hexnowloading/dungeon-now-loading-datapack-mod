@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"KELYTheM\",display:{Name:'{\"text\":\"KELYTheM\\'s Head\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"translate\":\"Are you the one that beheaded me?\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"Because only the man who passes the\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"sentence should swing the sword and then\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"may keep or burn the trophy.\",\"color\":\"gray\",\"italic\":false}']}}"
+              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"KELYTheM\",display:{Name:'{\"translate\":\"KELYTheM\\'s Head\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"translate\":\"Are you the one that beheaded me?\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"Because only the man who passes the\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"sentence should swing the sword and then\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"may keep or burn the trophy.\",\"color\":\"gray\",\"italic\":false}']}}"
             }
           ]
         }

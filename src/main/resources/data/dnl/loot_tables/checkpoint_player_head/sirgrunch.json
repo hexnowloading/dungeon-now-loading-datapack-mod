@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"SirGrunch\",display:{Name:'{\"text\":\"SirGrunch\\'s Head\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"translate\":\"I\\'m bout to head out\",\"color\":\"gray\",\"italic\":false}']}}"
+              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"SirGrunch\",display:{Name:'{\"translate\":\"SirGrunch\\'s Head\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"translate\":\"I\\'m bout to head out\",\"color\":\"gray\",\"italic\":false}']}}"
             }
           ]
         }

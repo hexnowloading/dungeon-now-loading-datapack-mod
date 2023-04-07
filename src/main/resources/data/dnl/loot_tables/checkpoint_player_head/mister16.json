@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"Mister16\",display:{Name:'{\"text\":\"Mister16\\'s Head\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"translate\":\"Never put off to tomorrow what you can\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"put off to the day after tomorrow just\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"as well :D\",\"color\":\"gray\",\"italic\":false}']}}"
+              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"Mister16\",display:{Name:'{\"translate\":\"Mister16\\'s Head\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"translate\":\"Never put off to tomorrow what you can\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"put off to the day after tomorrow just\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"as well :D\",\"color\":\"gray\",\"italic\":false}']}}"
             }
           ]
         }
