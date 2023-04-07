@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "spawner_chest": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "tag": "dnl:chests",
+            "nbt": "{Lock:\"Spawner Chest\u00a7r\"}"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "spawner_chest"
+    ]
+  ],
+  "rewards": {
+    "function": "dnl:util/chests/player_interacted_chest"
+  }
+}

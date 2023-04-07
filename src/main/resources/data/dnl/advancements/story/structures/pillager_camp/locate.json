@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gray_wool",
+      "nbt": "{CustomModelData:600018}"
+    },
+    "title": {
+      "translate": "Pillager Camp"
+    },
+    "description": {
+      "translate": "Visit the Pillager Camp"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/themes/illager/locate",
+  "criteria": {
+    "locate_pillager_camp": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "dnl:plains_pillager_camp"
+          }
+        }
+      }
+    },
+    "locate_pillager_camp_boss": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "dnl:plains_pillager_camp_boss"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "locate_pillager_camp",
+      "locate_pillager_camp_boss"
+    ]
+  ]
+}

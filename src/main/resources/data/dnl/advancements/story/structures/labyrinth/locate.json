@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:smooth_stone"
+    },
+    "title": {
+      "translate": "Labyrinth"
+    },
+    "description": {
+      "translate": "Enter the Labyrinth"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/general/locate_dungeon",
+  "criteria": {
+    "locate_labyrinth": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "dnl:plains_labyrinth"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "locate_labyrinth"
+    ]
+  ]
+}

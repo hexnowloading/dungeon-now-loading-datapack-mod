@@ -1,0 +1,15 @@
+execute if entity @s[tag=dnl.honey_potion] run function dnl:monolith/honey_potion/crafting
+execute if entity @s[tag=dnl.spawner_breaker] run function dnl:monolith/spawner_breaker/crafting
+execute if entity @s[tag=dnl.hive_chest] run function dnl:monolith/hive_chest/crafting
+execute if entity @s[tag=dnl.honeycomb_ingot] run function dnl:monolith/honeycomb_ingot/crafting
+execute if entity @s[tag=dnl.golem_heart_helmet] run function dnl:monolith/golem_heart_helmet/crafting
+execute if entity @s[tag=dnl.golem_heart_chestplate] run function dnl:monolith/golem_heart_chestplate/crafting
+execute if entity @s[tag=dnl.golem_heart_leggings] run function dnl:monolith/golem_heart_leggings/crafting
+execute if entity @s[tag=dnl.golem_heart_boots] run function dnl:monolith/golem_heart_boots/crafting
+execute if entity @s[tag=dnl.ancient_axe] run function dnl:monolith/ancient_axe/crafting
+execute if entity @s[tag=dnl.ancient_bow] run function dnl:monolith/ancient_bow/crafting
+execute if entity @s[tag=dnl.ancient_sword] run function dnl:monolith/ancient_sword/crafting
+execute if entity @s[tag=dnl.ancient_shield] run function dnl:monolith/ancient_shield/crafting
+execute if entity @s[tag=dnl.knightly_sword] run function dnl:monolith/knightly_sword/crafting
+execute if entity @s[tag=dnl.fleshbone_bow] run function dnl:monolith/fleshbone_bow/crafting
+execute if entity @s[tag=dnl.fleshbone_sword] run function dnl:monolith/fleshbone_sword/crafting

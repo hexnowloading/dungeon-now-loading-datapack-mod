@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Spawner Breaker",
+                "color": "#FFAA00",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "Soul Shatter",
+                  "color": "#AAAAAA",
+                  "italic": false
+                },
+                {
+                  "translate": "Deals Slowness III and Wither V",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "for 3s on mobs within range of 7 ",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "when you break a spawner.",
+                  "color": "#555555",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData: 4042002, dnl: {name: 'spawner_breaker', item: 1, id: 2002}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:honeycomb"
+    },
+    "title": {
+      "translate": "Bee Swarm"
+    },
+    "description": {
+      "translate": "Stop the bees from hatching by destroying all the nests!"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/structures/hivenest/craft_hive_chest",
+  "criteria": {
+    "kill bee swarm": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {}
+}

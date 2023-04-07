@@ -1,0 +1,7 @@
+{
+  "description": "All mob and player entities that shoot arrows in 1.19.3",
+  "values": [
+    "#dnl:skeletons",
+    "minecraft:player"
+  ]
+}

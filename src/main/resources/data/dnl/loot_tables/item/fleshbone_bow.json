@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Fleshbone Bow",
+                "color": "#FFAA00",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "Undead Stun",
+                  "color": "#AAAAAA",
+                  "italic": false
+                },
+                {
+                  "translate": "Deals Slowness III for 4 seconds",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "on undead mobs.",
+                  "color": "#555555",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData: 4040005, dnl: {name: 'fleshbone_bow', item: 1, id: 5}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

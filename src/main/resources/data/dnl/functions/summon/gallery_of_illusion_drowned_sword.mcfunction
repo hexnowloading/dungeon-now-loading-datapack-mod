@@ -1,0 +1,1 @@
+summon drowned ~ ~ ~ {Tags: ["dnl.mob", "dnl.gallery_of_illusion", "dnl.drowned_sword"], PersistenceRequired: 1b, Health: 24.0f, Attributes: [{Name: "generic.max_health", Base: 24}], HandItems: [{id: "minecraft:diamond_sword", Count: 1b, tag: {Enchantments: [{id: "minecraft:sharpness", lvl: 1s}]}}, {}], HandDropChances: [0.0f, 0.0f]}

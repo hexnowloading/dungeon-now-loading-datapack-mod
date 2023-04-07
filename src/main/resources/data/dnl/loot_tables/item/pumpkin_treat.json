@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin_pie",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "Trading Item",
+                  "color": "#AAAAAA",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData: 4045007, dnl: {name: 'pumpkin_treat', item: 1, id: 5007}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:1}"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

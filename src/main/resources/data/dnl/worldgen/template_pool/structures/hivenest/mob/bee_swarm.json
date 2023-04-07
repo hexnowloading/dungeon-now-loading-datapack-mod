@@ -1,0 +1,15 @@
+{
+    "name": "dnl:structures/hivenest/mob/bee_swarm",
+    "fallback": "dnl:structures/hivenest/mob/bee_swarm",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "dnl:hivenest/mob/bee_swarm",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

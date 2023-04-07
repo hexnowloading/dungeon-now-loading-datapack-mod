@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:goat_horn"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "reaper_framework:__internal__/event_handler/on_player_use_horn/use_horn"
+  }
+}

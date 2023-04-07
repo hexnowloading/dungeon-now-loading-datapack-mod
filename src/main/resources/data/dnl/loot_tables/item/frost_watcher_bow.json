@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Frost Watcher Bow",
+                "color": "#FFAA00",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "power": 3,
+                "minecraft:punch": 1
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnl: {name: 'frost_watcher_bow', item: 1, id: 9}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnl:{lvl:1}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:lead"
+    },
+    "title": {
+      "translate": "To Remember the Unfair Trade"
+    },
+    "description": {
+      "translate": "Trade the over priced poppy from the wandering trader"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/structures/forgotten_field/locate",
+  "criteria": {
+    "trade_poppy": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"dnl.poppy_seller\"]}"
+        },
+        "item": {
+          "items": [
+            "minecraft:poppy"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "trade_poppy"
+    ]
+  ]
+}

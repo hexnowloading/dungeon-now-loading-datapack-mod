@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_ingot",
+      "nbt": "{CustomModelData:4048003}"
+    },
+    "title": {
+      "translate": "Knightly Sword Fragment"
+    },
+    "description": {
+      "translate": "Obtain a Knightly Sword Fragment by attempting alchemy or looting from a treasure chest"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/structures/plains_castle/locate",
+  "criteria": {
+    "knightly_sword_fragment": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ingot"
+            ],
+            "nbt": "{dnl:{name:'knightly_sword_fragment'}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "knightly_sword_fragment"
+    ]
+  ]
+}

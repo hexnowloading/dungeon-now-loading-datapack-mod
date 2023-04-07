@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{dnl:{name:'ominous_crossbow'}}"
+            }
+          }
+        },
+        "entity": {
+          "type": "#dnl:illagers"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnl:item/ominous_crossbow/killed_illager"
+  }
+}

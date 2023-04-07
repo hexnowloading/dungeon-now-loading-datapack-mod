@@ -1,0 +1,9 @@
+scoreboard players reset #dnl.illusioner.target_selected dnl.boolean
+execute unless score #dnl.illusioner.target_selected dnl.boolean matches 1 as @e[tag=dnl.illusioner_minion_skeleton] if score @s dnl.lid = #dnl.death_entity_lid dnl.lid run function dnl:entity/illusioner/next_target
+execute unless score #dnl.illusioner.target_selected dnl.boolean matches 1 as @e[tag=dnl.illusioner_minion_stray] if score @s dnl.lid = #dnl.death_entity_lid dnl.lid run function dnl:entity/illusioner/next_target
+execute unless score #dnl.illusioner.target_selected dnl.boolean matches 1 as @e[tag=dnl.illusioner_minion_drowned] if score @s dnl.lid = #dnl.death_entity_lid dnl.lid run function dnl:entity/illusioner/next_target
+execute unless score #dnl.illusioner.target_selected dnl.boolean matches 1 as @e[tag=dnl.illusioner] if score @s dnl.lid = #dnl.death_entity_lid dnl.lid if score @s dnl.phase matches 2 run function dnl:entity/illusioner/next_target
+execute unless score #dnl.illusioner.target_selected dnl.boolean matches 1 as @e[tag=dnl.illusioner_minion_pillager] if score @s dnl.lid = #dnl.death_entity_lid dnl.lid run function dnl:entity/illusioner/next_target
+execute unless score #dnl.illusioner.target_selected dnl.boolean matches 1 as @e[tag=dnl.illusioner_minion_zombie_villager] if score @s dnl.lid = #dnl.death_entity_lid dnl.lid run function dnl:entity/illusioner/next_target
+execute unless score #dnl.illusioner.target_selected dnl.boolean matches 1 as @e[tag=dnl.illusioner_minion_evoker] if score @s dnl.lid = #dnl.death_entity_lid dnl.lid run function dnl:entity/illusioner/next_target
+execute unless score #dnl.illusioner.target_selected dnl.boolean matches 1 as @e[tag=dnl.illusioner] if score @s dnl.lid = #dnl.death_entity_lid dnl.lid if score @s dnl.phase matches 3 run function dnl:entity/illusioner/next_target

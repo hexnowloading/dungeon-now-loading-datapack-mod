@@ -1,0 +1,15 @@
+{
+    "name": "dnl:structures/gallery_of_illusion/mob/gallery_of_illusion_vindicator",
+    "fallback": "dnl:structures/gallery_of_illusion/mob/gallery_of_illusion_vindicator",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "dnl:gallery_of_illusion/mob/gallery_of_illusion_vindicator",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

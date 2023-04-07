@@ -1,0 +1,15 @@
+{
+    "name": "dnl:structures/hivenest/mob/vanilla_witch",
+    "fallback": "dnl:structures/hivenest/mob/vanilla_witch",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "dnl:hivenest/mob/vanilla_witch",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

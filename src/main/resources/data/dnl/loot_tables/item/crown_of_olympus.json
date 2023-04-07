@@ -1,0 +1,78 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Crown of Olympus",
+                "color": "#FFAA00",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "Fire Absorption",
+                  "color": "#AAAAAA",
+                  "italic": false
+                },
+                {
+                  "translate": "Absorbs fire and grants Strength I",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "for 10s. If you already have strength",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "it will stack the effect level (max 2).",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "Soul Absorption",
+                  "color": "#AAAAAA",
+                  "italic": false
+                },
+                {
+                  "translate": "Absorbs soul fire and grants Invisibility",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "for 10s. If you already have Invisibility",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "it will grant Instant Health I instead.",
+                  "color": "#555555",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnl: {name: 'crown_of_olympus', item: 1, id: 3001}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnl:{upgradable: 1}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

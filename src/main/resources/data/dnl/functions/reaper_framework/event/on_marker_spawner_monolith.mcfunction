@@ -1,0 +1,15 @@
+execute if entity @s[tag=dnl.honey_potion] positioned ~-8 ~ ~-8 if entity @p[dx=15, dy=7, dz=15] at @s run function dnl:util/monolith/spawner/honey_potion
+execute if entity @s[tag=dnl.spawner_breaker] positioned ~-8 ~ ~-8 if entity @p[dx=15, dy=7, dz=15] at @s run function dnl:util/monolith/spawner/spawner_breaker
+execute if entity @s[tag=dnl.hive_chest] positioned ~-8 ~ ~-8 if entity @p[dx=15, dy=7, dz=15] at @s run function dnl:util/monolith/spawner/hive_chest
+execute if entity @s[tag=dnl.honeycomb_ingot] positioned ~-8 ~ ~-8 if entity @p[dx=15, dy=7, dz=15] at @s run function dnl:util/monolith/spawner/honeycomb_ingot
+execute if entity @s[tag=dnl.golem_heart_helmet] positioned ~-8 ~ ~-8 if entity @p[dx=15, dy=7, dz=15] at @s run function dnl:util/monolith/spawner/golem_heart_helmet
+execute if entity @s[tag=dnl.golem_heart_chestplate] positioned ~-8 ~ ~-8 if entity @p[dx=15, dy=7, dz=15] at @s run function dnl:util/monolith/spawner/golem_heart_chestplate
+execute if entity @s[tag=dnl.golem_heart_leggings] positioned ~-8 ~ ~-8 if entity @p[dx=15, dy=7, dz=15] at @s run function dnl:util/monolith/spawner/golem_heart_leggings
+execute if entity @s[tag=dnl.golem_heart_boots] positioned ~-8 ~ ~-8 if entity @p[dx=15, dy=7, dz=15] at @s run function dnl:util/monolith/spawner/golem_heart_boots
+execute if entity @s[tag=dnl.ancient_axe] positioned ~-8 ~ ~-8 if entity @p[dx=15, dy=7, dz=15] at @s run function dnl:util/monolith/spawner/ancient_axe
+execute if entity @s[tag=dnl.ancient_bow] positioned ~-8 ~ ~-8 if entity @p[dx=15, dy=7, dz=15] at @s run function dnl:util/monolith/spawner/ancient_bow
+execute if entity @s[tag=dnl.ancient_sword] positioned ~-8 ~ ~-8 if entity @p[dx=15, dy=7, dz=15] at @s run function dnl:util/monolith/spawner/ancient_sword
+execute if entity @s[tag=dnl.ancient_shield] positioned ~-8 ~ ~-8 if entity @p[dx=15, dy=7, dz=15] at @s run function dnl:util/monolith/spawner/ancient_shield
+execute if entity @s[tag=dnl.knightly_sword] positioned ~-8 ~ ~-8 if entity @p[dx=15, dy=7, dz=15] at @s run function dnl:util/monolith/spawner/knightly_sword
+execute if entity @s[tag=dnl.fleshbone_bow] positioned ~-8 ~ ~-8 if entity @p[dx=15, dy=7, dz=15] at @s run function dnl:util/monolith/spawner/fleshbone_bow
+execute if entity @s[tag=dnl.fleshbone_sword] positioned ~-8 ~ ~-8 if entity @p[dx=15, dy=7, dz=15] at @s run function dnl:util/monolith/spawner/fleshbone_sword

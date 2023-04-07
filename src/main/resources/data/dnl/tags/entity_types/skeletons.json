@@ -1,0 +1,8 @@
+{
+  "description": "All bow skeletons in 1.19.3",
+  "values": [
+    "minecraft:skeleton",
+    "minecraft:stray",
+    "minecraft:wither_skeleton"
+  ]
+}

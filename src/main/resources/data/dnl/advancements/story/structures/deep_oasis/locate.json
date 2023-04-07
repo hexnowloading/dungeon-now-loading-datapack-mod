@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dark_prismarine"
+    },
+    "title": {
+      "translate": "Deep Oasis"
+    },
+    "description": {
+      "translate": "Dive into the oasis"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/themes/hidden/locate",
+  "criteria": {
+    "locate_deep_oasis": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "dnl:deep_oasis"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "locate_deep_oasis"
+    ]
+  ]
+}

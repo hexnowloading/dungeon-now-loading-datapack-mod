@@ -1,0 +1,80 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_ingot"
+    },
+    "title": {
+      "translate": "Iron Heart"
+    },
+    "description": {
+      "translate": "Craft the Golem Heart Armor and get the iron body"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/structures/forgotten_field/daily_maintenance",
+  "criteria": {
+    "golem_heart_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_helmet"
+            ],
+            "nbt": "{dnl: {name: 'golem_heart_armor'}}"
+          }
+        ]
+      }
+    },
+    "golem_heart_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_chestplate"
+            ],
+            "nbt": "{dnl: {name: 'golem_heart_armor'}}"
+          }
+        ]
+      }
+    },
+    "golem_heart_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_leggings"
+            ],
+            "nbt": "{dnl: {name: 'golem_heart_armor'}}"
+          }
+        ]
+      }
+    },
+    "golem_heart_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_boots"
+            ],
+            "nbt": "{dnl: {name: 'golem_heart_armor'}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "golem_heart_armor",
+      "golem_heart_chestplate",
+      "golem_heart_leggings",
+      "golem_heart_boots"
+    ]
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "dnl:item/ominous_crossbow",
+  "textures": {
+    "layer0": "dnl:item/ominous_crossbow/pulling_1"
+  }
+}

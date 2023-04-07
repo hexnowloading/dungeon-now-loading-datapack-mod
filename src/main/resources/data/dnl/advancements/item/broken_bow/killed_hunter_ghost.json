@@ -1,0 +1,51 @@
+{
+  "criteria": {
+    "mainhand": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "bow"
+              ],
+              "nbt": "{dnl:{name:'broken_bow'}}"
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:skeleton",
+          "nbt": "{Tags:[\"dnl.hunter_ghost\"]}"
+        }
+      }
+    },
+    "offhand": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "offhand": {
+              "items": [
+                "minecraft:bow"
+              ],
+              "nbt": "{dnl:{name:'broken_bow'}}"
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:skeleton",
+          "nbt": "{Tags:[\"dnl.hunter_ghost\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "offhand",
+      "mainhand"
+    ]
+  ],
+  "rewards": {
+    "function": "dnl:item/broken_bow/killed_hunter_ghost"
+  }
+}

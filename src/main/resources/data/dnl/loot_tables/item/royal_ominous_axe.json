@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Royal Ominous Axe",
+                "color": "#FFAA00",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "Johnny's Blessing",
+                  "color": "#AAAAAA",
+                  "italic": false
+                },
+                {
+                  "translate": "Has 20% chance of spawning a",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "Johnny Vindicator and granting",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "Invisibility for 10s.",
+                  "color": "#555555",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData: 4041006, dnl: {name: 'royal_ominous_axe', item: 1, id: 1006}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

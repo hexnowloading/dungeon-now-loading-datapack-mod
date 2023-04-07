@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Ancient Shield",
+                "color": "#FFAA00",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "Parry Frame",
+                  "color": "#AAAAAA",
+                  "italic": false
+                },
+                {
+                  "translate": "0.25s-0.5s",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "Counter Stun III",
+                  "color": "#AAAAAA",
+                  "italic": false
+                },
+                {
+                  "translate": "Deals Slowness V and Weakness V for",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "5s on parry.",
+                  "color": "#555555",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnl: {name: 'ancient_shield', item: 1, id: 6001}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:32,BlockEntityTag:{Base:0,Patterns:[{Color:8,Pattern:\"cbo\"},{Color:7,Pattern:\"bo\"},{Color:15,Pattern:\"gra\"},{Color:15,Pattern:\"gru\"},{Color:15,Pattern:\"mr\"},{Color:7,Pattern:\"flo\"}]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

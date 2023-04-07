@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "tag": "dnl:consumables",
+          "nbt": "{dnl:{item:1}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnl:util/consume_item/trigger"
+  }
+}

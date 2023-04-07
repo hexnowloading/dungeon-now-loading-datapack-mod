@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Knightly Sword",
+                "color": "#FFAA00",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "Nobility",
+                  "color": "#AAAAAA",
+                  "italic": false
+                },
+                {
+                  "translate": "Grants Sharpness I when holding",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "shield in offhand.",
+                  "color": "#555555",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData: 4041004, dnl: {name: 'knightly_sword', item: 1, id: 1004}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

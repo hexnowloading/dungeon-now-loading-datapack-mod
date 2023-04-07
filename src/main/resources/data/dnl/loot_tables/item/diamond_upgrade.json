@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Diamond Upgrade Template",
+                "color": "#FFAA00",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "Throw this item and an item that has",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "lower tier than diamond to upgrade",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "it to diamond tier.",
+                  "color": "#555555",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData: 4044002, dnl: {name: 'diamond_upgrade', item: 1, id: 4002}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

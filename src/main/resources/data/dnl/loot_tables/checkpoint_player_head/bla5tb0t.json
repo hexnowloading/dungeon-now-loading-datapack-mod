@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"Bla5tb0t\",display:{Name:'{\"text\":\"Bla5tb0t\\'s Head\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"translate\":\"Why do they call it oven when you of in\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"the cold food of out hot eat the food\",\"color\":\"gray\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

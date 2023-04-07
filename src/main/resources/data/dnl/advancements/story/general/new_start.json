@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:spawner"
+    },
+    "title": {
+      "translate": "New Start!"
+    },
+    "description": {
+      "translate": "Dungeon Now Loading has been installed! Have Fun!"
+    },
+    "background": "minecraft:textures/block/mossy_cobblestone.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "new start": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

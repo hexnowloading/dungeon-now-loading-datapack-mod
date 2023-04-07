@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stone_bricks"
+    },
+    "title": {
+      "translate": "Stone Castle"
+    },
+    "description": {
+      "translate": "Find the castle."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/general/locate_dungeon",
+  "criteria": {
+    "locate_plains_castle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "dnl:plains_castle"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "locate_plains_castle"
+    ]
+  ]
+}

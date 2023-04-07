@@ -1,0 +1,15 @@
+{
+    "name": "dnl:structures/watcher_camp/mob/frost_watcher_sword",
+    "fallback": "dnl:structures/watcher_camp/mob/frost_watcher_sword",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "dnl:watcher_camp/mob/frost_watcher_sword",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

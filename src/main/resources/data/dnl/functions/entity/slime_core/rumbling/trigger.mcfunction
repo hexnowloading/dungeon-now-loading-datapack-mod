@@ -1,0 +1,5 @@
+execute if score @s dnl.timer matches 200 at @a[distance=..30] run summon minecraft:marker ~ ~ ~ {Tags: ["dnl.marker", "dnl.skill", "dnl.slime_core", "dnl.slime_core.rumbling"]}
+execute if score @s dnl.phase matches 2.. if score @s dnl.timer matches 210 at @a[distance=..30] run summon minecraft:marker ~ ~ ~ {Tags: ["dnl.marker", "dnl.skill", "dnl.slime_core", "dnl.slime_core.rumbling"]}
+execute if score @s dnl.phase matches 4.. if score @s dnl.timer matches 220 at @a[distance=..30] run summon minecraft:marker ~ ~ ~ {Tags: ["dnl.marker", "dnl.skill", "dnl.slime_core", "dnl.slime_core.rumbling"]}
+execute if score @s dnl.phase matches 6.. if score @s dnl.timer matches 230 at @a[distance=..30] run summon minecraft:marker ~ ~ ~ {Tags: ["dnl.marker", "dnl.skill", "dnl.slime_core", "dnl.slime_core.rumbling"]}
+execute if score @s dnl.phase matches 8.. if score @s dnl.timer matches 240 at @a[distance=..30] run summon minecraft:marker ~ ~ ~ {Tags: ["dnl.marker", "dnl.skill", "dnl.slime_core", "dnl.slime_core.rumbling"]}

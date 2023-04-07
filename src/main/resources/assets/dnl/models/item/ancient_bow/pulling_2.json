@@ -1,0 +1,6 @@
+{
+  "parent": "dnl:item/ancient_bow",
+  "textures": {
+    "layer0": "dnl:item/ancient_bow/pulling_2"
+  }
+}

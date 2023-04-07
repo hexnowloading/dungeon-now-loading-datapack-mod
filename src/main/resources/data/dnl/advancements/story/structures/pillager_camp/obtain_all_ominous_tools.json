@@ -1,0 +1,71 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_axe",
+      "nbt": "{CustomModelData:4041005}"
+    },
+    "title": {
+      "translate": "Switching Sides"
+    },
+    "description": {
+      "translate": "Obtain all of the ominous tools, including the ominous axe, crossbow, and horn."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/structures/pillager_camp/camp_chief",
+  "criteria": {
+    "ominous axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_axe"
+            ],
+            "nbt": "{dnl: { name:'ominous_axe'}}"
+          }
+        ]
+      }
+    },
+    "ominous crossbow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crossbow"
+            ],
+            "nbt": "{dnl: { name:'ominous_crossbow'}}"
+          }
+        ]
+      }
+    },
+    "ominous horn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:goat_horn"
+            ],
+            "nbt": "{dnl: { name:'ominous_horn'}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ominous axe"
+    ],
+    [
+      "ominous crossbow"
+    ],
+    [
+      "ominous horn"
+    ]
+  ]
+}

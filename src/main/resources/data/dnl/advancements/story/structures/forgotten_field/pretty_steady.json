@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_chestplate",
+      "nbt": "{CustomModelData:4043002}"
+    },
+    "title": {
+      "translate": "Pretty Steady"
+    },
+    "description": {
+      "translate": "Gather irons. And then craft all of the Golem Heart Armor pieces!"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/structures/forgotten_field/iron_heart",
+  "criteria": {
+    "craft_golem_heart_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_helmet"
+            ],
+            "nbt": "{dnl: {name: 'golem_heart_armor'}}"
+          },
+          {
+            "items": [
+              "minecraft:iron_chestplate"
+            ],
+            "nbt": "{dnl: {name: 'golem_heart_armor'}}"
+          },
+          {
+            "items": [
+              "minecraft:iron_leggings"
+            ],
+            "nbt": "{dnl: {name: 'golem_heart_armor'}}"
+          },
+          {
+            "items": [
+              "minecraft:iron_boots"
+            ],
+            "nbt": "{dnl: {name: 'golem_heart_armor'}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "craft_golem_heart_armor"
+    ]
+  ]
+}

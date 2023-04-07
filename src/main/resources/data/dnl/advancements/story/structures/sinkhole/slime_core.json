@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:slime_ball"
+    },
+    "title": {
+      "translate": "Slime Core"
+    },
+    "description": {
+      "translate": "Destroy the Slime Core"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/structures/sinkhole/locate",
+  "criteria": {
+    "killed_slime_core": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "killed_slime_core"
+    ]
+  ]
+}

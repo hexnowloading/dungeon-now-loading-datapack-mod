@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_pickaxe",
+      "nbt": "{CustomModelData:4042002}"
+    },
+    "title": {
+      "translate": "Spawner Breaker"
+    },
+    "description": {
+      "translate": "Craft the Spawner Breaker!"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/structures/labyrinth/chaos_spawner",
+  "criteria": {
+    "spawner_breaker": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_pickaxe"
+            ],
+            "nbt": "{dnl: {name: 'spawner_breaker'}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "spawner_breaker"
+    ]
+  ]
+}

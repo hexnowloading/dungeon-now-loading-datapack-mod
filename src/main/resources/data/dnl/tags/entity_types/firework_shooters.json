@@ -1,0 +1,7 @@
+{
+  "description": "All mob and player entities that shoot firework in 1.19.3",
+  "values": [
+    "minecraft:pillager",
+    "minecraft:player"
+  ]
+}

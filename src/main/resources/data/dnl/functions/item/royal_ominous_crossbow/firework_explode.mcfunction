@@ -1,0 +1,23 @@
+data merge entity @s {FireworksItem: {id: "firework_rocket", Count: 1, tag: {Fireworks: {Explosions: [{Type: 1, Flicker: 1b, Trail: 1b, Colors: [I; 3392577], FadeColors: [I; 3931969]}, {Type: 1}, {Type: 1}]}}}}
+summon arrow ~ ~ ~ {damage: 6.0d, life: 1100, Motion: [0.0d, -1.0d, 0.0d]}
+summon arrow ~ ~ ~ {damage: 6.0d, life: 1100, Motion: [1.0d, -1.0d, 0.0d]}
+summon arrow ~ ~ ~ {damage: 6.0d, life: 1100, Motion: [0.0d, -1.0d, 1.0d]}
+summon arrow ~ ~ ~ {damage: 6.0d, life: 1100, Motion: [-1.0d, -1.0d, 0.0d]}
+summon arrow ~ ~ ~ {damage: 6.0d, life: 1100, Motion: [0.0d, -1.0d, -1.0d]}
+summon arrow ~ ~ ~ {damage: 6.0d, life: 1100, Motion: [1.0d, -1.0d, 1.0d]}
+summon arrow ~ ~ ~ {damage: 6.0d, life: 1100, Motion: [-1.0d, -1.0d, 1.0d]}
+summon arrow ~ ~ ~ {damage: 6.0d, life: 1100, Motion: [1.0d, -1.0d, -1.0d]}
+summon arrow ~ ~ ~ {damage: 6.0d, life: 1100, Motion: [0.5d, -1.0d, 0.0d]}
+summon arrow ~ ~ ~ {damage: 6.0d, life: 1100, Motion: [0.0d, -1.0d, 0.5d]}
+summon arrow ~ ~ ~ {damage: 6.0d, life: 1100, Motion: [-0.5d, -1.0d, 0.0d]}
+summon arrow ~ ~ ~ {damage: 6.0d, life: 1100, Motion: [0.0d, -1.0d, -0.5d]}
+summon arrow ~ ~ ~ {damage: 6.0d, life: 1100, Motion: [0.5d, -1.0d, 0.5d]}
+summon arrow ~ ~ ~ {damage: 6.0d, life: 1100, Motion: [-0.5d, -1.0d, 0.5d]}
+summon arrow ~ ~ ~ {damage: 6.0d, life: 1100, Motion: [0.5d, -1.0d, -0.5d]}
+summon arrow ~ ~ ~ {damage: 6.0d, life: 1100, Motion: [0.3d, -1.0d, 0.0d]}
+summon arrow ~ ~ ~ {damage: 6.0d, life: 1100, Motion: [0.0d, -1.0d, 0.3d]}
+summon arrow ~ ~ ~ {damage: 6.0d, life: 1100, Motion: [-0.3d, -1.0d, 0.0d]}
+summon arrow ~ ~ ~ {damage: 6.0d, life: 1100, Motion: [0.0d, -1.0d, -0.3d]}
+summon arrow ~ ~ ~ {damage: 6.0d, life: 1100, Motion: [0.3d, -1.0d, 0.3d]}
+summon arrow ~ ~ ~ {damage: 6.0d, life: 1100, Motion: [-0.3d, -1.0d, 0.3d]}
+summon arrow ~ ~ ~ {damage: 6.0d, life: 1100, Motion: [0.3d, -1.0d, -0.3d]}

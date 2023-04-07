@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sweet_berries",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Forbidden Berries",
+                "color": "#FF55FF",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "When Consumed:",
+                  "color": "#AAAAAA",
+                  "italic": false
+                },
+                {
+                  "translate": "+3 Heart Piece",
+                  "color": "#555555",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnl: {name: 'forbidden_berries', item: 1, id: 5002}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

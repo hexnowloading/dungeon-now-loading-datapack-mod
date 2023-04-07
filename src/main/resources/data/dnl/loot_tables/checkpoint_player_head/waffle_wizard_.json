@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"Waffle_Wizard_\",display:{Name:'{\"text\":\"Waffle_Wizard_\\'s Head\",\"color\":\"dark_purple\",\"italic\":false}',Lore:['{\"translate\":\"[Discord Helper]\",\"color\":\"red\",\"italic\":false}','{\"translate\":\"If we shouldn\\'t eat at night, then why\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"is here a light in the fridge?\",\"color\":\"gray\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

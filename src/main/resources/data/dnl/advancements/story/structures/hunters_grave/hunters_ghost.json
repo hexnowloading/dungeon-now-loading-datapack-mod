@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bow"
+    },
+    "title": {
+      "translate": "Hunter's Ghost"
+    },
+    "description": {
+      "translate": "Challenge and defeat the hunter's ghost in a duel"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/structures/hunters_grave/locate",
+  "criteria": {
+    "killed_hunters_grave": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "killed_hunters_grave"
+    ]
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{dnl:{name:'ominous_axe'}}"
+            }
+          }
+        },
+        "entity": {
+          "type": "#dnl:illagers"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnl:item/ominous_axe/killed_illager"
+  }
+}

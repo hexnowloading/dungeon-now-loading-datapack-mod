@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_sword",
+      "nbt": "{CustomModelData:4041004}"
+    },
+    "title": {
+      "translate": "Knightly Sword"
+    },
+    "description": {
+      "translate": "Obtain the Knightly Sword by crafting on Monolith"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/structures/plains_castle/knightly_sword_fragment",
+  "criteria": {
+    "knightly_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_sword"
+            ],
+            "nbt": "{dnl:{name:'knightly_sword'}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "knightly_sword"
+    ]
+  ]
+}

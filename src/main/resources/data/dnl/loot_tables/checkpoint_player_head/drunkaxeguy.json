@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"DrunkAxeGuy\",display:{Name:'{\"text\":\"DrunkAxeGuy\\'s Head\",\"color\":\"dark_red\",\"italic\":false}',Lore:['{\"translate\":\"[Patron]\",\"color\":\"red\",\"italic\":false}','{\"translate\":\"Any one of you (belches) Everyone, damn\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"it... (sobs)\",\"color\":\"gray\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

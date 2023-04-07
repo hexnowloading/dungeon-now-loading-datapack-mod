@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:moss_block"
+    },
+    "title": {
+      "translate": "Hidden Deep"
+    },
+    "description": {
+      "translate": "Reveal the hidden structures"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/general/locate_dungeon",
+  "criteria": {
+    "locate_slime_sinkhole": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "dnl:sinkhole"
+          }
+        }
+      }
+    },
+    "locate_deep_oasis": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "dnl:deep_oasis"
+          }
+        }
+      }
+    },
+    "locate_crawlers_lair": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "dnl:crawlers_lair"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "locate_slime_sinkhole",
+      "locate_deep_oasis",
+      "locate_crawlers_lair"
+    ]
+  ]
+}

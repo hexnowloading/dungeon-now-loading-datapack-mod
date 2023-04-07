@@ -1,0 +1,90 @@
+{
+  "criteria": {
+    "hurt_guardian_ghast": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ghast",
+          "nbt": "{Tags:[\"dnl.guardian_ghast\"]}"
+        }
+      }
+    },
+    "by_fireball": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_projectile": true,
+            "direct_entity": {
+              "type": "minecraft:fireball"
+            }
+          }
+        }
+      }
+    },
+    "by_arrow": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_projectile": true,
+            "direct_entity": {
+              "type": "#minecraft:arrows"
+            }
+          }
+        }
+      }
+    },
+    "by_firework": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_projectile": true,
+            "direct_entity": {
+              "type": "minecraft:firework_rocket"
+            }
+          }
+        }
+      }
+    },
+    "by_trident": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_projectile": true,
+            "direct_entity": {
+              "type": "minecraft:trident"
+            }
+          }
+        }
+      }
+    },
+    "not_projectile": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_projectile": false
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hurt_guardian_ghast"
+    ],
+    [
+      "by_fireball",
+      "by_arrow",
+      "by_firework",
+      "by_trident",
+      "not_projectile"
+    ]
+  ],
+  "rewards": {
+    "function": "dnl:entity/guardian_ghast/hurt"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Golem Heart Helmet",
+                "color": "#FFAA00",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "Required Piece",
+                  "color": "#AAAAAA",
+                  "italic": false
+                },
+                {
+                  "translate": "Golem Heart Chestplate",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "Iron Body",
+                  "color": "#AAAAAA",
+                  "italic": false
+                },
+                {
+                  "translate": "Gains Resistance I for 10s when attacked.",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "[Consumes 1 Iron Block]",
+                  "color": "#555555",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData: 4043002, dnl: {name: 'golem_heart_armor', item: 1, id: 3002}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:zombie_head"
+    },
+    "title": {
+      "translate": "Grave"
+    },
+    "description": {
+      "translate": "Locate one of the Graves"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/general/locate_dungeon",
+  "criteria": {
+    "locate_hunters_grave": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "dnl:hunters_grave"
+          }
+        }
+      }
+    },
+    "locate_forgotten_field": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "dnl:forgotten_field"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "locate_hunters_grave",
+      "locate_forgotten_field"
+    ]
+  ]
+}

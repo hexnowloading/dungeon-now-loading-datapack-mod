@@ -1,0 +1,14 @@
+{
+  "function": "minecraft:copy_nbt",
+  "source": {
+    "type": "minecraft:storage",
+    "source": "dnl:temp"
+  },
+  "ops": [
+    {
+      "source": "dnl.exp",
+      "target": "dnl.exp",
+      "op": "replace"
+    }
+  ]
+}

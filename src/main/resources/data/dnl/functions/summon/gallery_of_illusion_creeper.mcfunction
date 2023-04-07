@@ -1,0 +1,1 @@
+summon creeper ~ ~ ~ {Tags: ["dnl.mob", "dnl.gallery_of_illusion", "dnl.creeper"], PersistenceRequired: 1b, Health: 24.0f, Attributes: [{Name: "generic.max_health", Base: 24}, {Name: "generic.movement_speed", Base: 0.5d}]}

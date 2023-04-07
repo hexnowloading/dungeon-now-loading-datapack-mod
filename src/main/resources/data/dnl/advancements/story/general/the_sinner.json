@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:apple"
+    },
+    "title": {
+      "translate": "The Sinner"
+    },
+    "description": {
+      "translate": "Eat any kind of Forbidden Fruit and become a sinner"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/general/new_start",
+  "criteria": {
+    "locate watcher camp": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

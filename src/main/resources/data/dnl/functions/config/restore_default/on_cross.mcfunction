@@ -1,0 +1,1 @@
+tellraw @s [{"translate": "[ Restore ] ", "color": "red", "hoverEvent": {"action": "show_text", "contents": [{"translate": "Click to Restore!", "color": "green"}]}, "clickEvent": {"action": "run_command", "value": "/function dnl:config/restore_default/everything_set"}}]

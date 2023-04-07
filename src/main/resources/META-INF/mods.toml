@@ -1,0 +1,29 @@
+modLoader="javafml" #mandatory
+loaderVersion="[44,)"
+license="All rights reserved"
+[[mods]]
+modId="dungeonnowloading"
+version="18.0-1.19.3"
+displayName="Dungeon Now Loading Mod"
+logoFile="pack.png"
+credits="Hexnowloading"
+authors="Hexnowloading"
+description='''
+Dungeon Now Loading is a mod that adds random structures with bosses to defeat in the world!
+
+The ultimate goal of this mod is to add 100 dungeons and bosses!
+
+Have fun!
+'''
+[[dependencies.dungeonnowloading]]
+    modId="forge"
+    mandatory=true
+    versionRange="[44,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.dungeonnowloading]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.3,1.20)"
+    ordering="NONE"
+    side="BOTH"

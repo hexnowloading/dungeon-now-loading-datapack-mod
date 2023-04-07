@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Ominous Axe",
+                "color": "#FFAA00",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "Illager Aspect",
+                  "color": "#AAAAAA",
+                  "italic": false
+                },
+                {
+                  "translate": "When attacking Illager mob,",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "it has 20% chance of dropping",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "an Emerald.",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "Evolution (0/10)",
+                  "color": "#AAAAAA",
+                  "italic": false
+                },
+                {
+                  "translate": "This weapon evolves when you",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "kill 10 Illager mobs.",
+                  "color": "#555555",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData: 4041005, dnl: {name: 'ominous_axe', item: 1, id: 1005}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnl:{exp:0}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

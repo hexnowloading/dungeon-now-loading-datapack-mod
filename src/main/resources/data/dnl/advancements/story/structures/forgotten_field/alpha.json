@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_strad",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "translate": "Alpha"
+    },
+    "description": {
+      "translate": "Music that was long forgotten"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "dnl:story/structures/forgotten_field/out_of_stock",
+  "criteria": {
+    "obtain_music_disc_alpha": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:music_disc_strad"
+          ],
+          "nbt": "{dnl: {name: 'music_disc_alpha'}}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_music_disc_alpha"
+    ]
+  ]
+}

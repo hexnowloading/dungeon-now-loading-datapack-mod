@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Ancient Sword",
+                "color": "#FFAA00",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "Acceleration",
+                  "color": "#AAAAAA",
+                  "italic": false
+                },
+                {
+                  "translate": "Increases the attack speed by 0.6 for",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "every attack. This change lasts for 10s.",
+                  "color": "#555555",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnl: {name: 'ancient_sword', item: 1, id: 1002}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

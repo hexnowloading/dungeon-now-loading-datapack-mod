@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cracked_polished_blackstone_bricks"
+    },
+    "title": {
+      "translate": "Temple of Tears"
+    },
+    "description": {
+      "translate": "Find an ancient sky temple"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/structures/olympus/lord_of_olympus",
+  "criteria": {
+    "locate_temple_of_tears": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "dnl:temple_of_tears"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "locate_temple_of_tears"
+    ]
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_sword",
+      "nbt": "{CustomModelData:4041003}"
+    },
+    "title": {
+      "translate": "Crafting with Corpse"
+    },
+    "description": {
+      "translate": "Obtain Fleshbone Sword and Bow"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/structures/labyrinth/open_spawner_chest",
+  "criteria": {
+    "fleshbone_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_sword"
+            ],
+            "nbt": "{dnl: {name: 'fleshbone_sword'}}"
+          }
+        ]
+      }
+    },
+    "fleshbone_bow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bow"
+            ],
+            "nbt": "{dnl: {name: 'fleshbone_bow'}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fleshbone_sword"
+    ],
+    [
+      "fleshbone_bow"
+    ]
+  ]
+}

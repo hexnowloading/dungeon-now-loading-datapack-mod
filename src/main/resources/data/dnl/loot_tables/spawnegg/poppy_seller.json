@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Poppy Seller Spawn Egg",
+                "color": "#FF55FF",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:marker\",Tags:[\"dnl.marker\",\"dnl.summon\",\"dnl.poppy_seller\"]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

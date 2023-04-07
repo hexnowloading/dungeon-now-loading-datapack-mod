@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Oasis Trident",
+                "color": "#FFAA00",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:riptide": 4
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnl: {name: 'oasis_trident', item: 1, id: 1008}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

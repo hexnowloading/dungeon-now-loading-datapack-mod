@@ -1,0 +1,1 @@
+summon illusioner ~ ~ ~ {DeathLootTable: "dnl:entity/illusioner/death", Tags: ["dnl.boss", "dnl.mob", "dnl.tick", "dnl.illusioner"], PersistenceRequired: 1b, Health: 250.0f, HandItems: [{id: "minecraft:bow", Count: 1b, tag: {Enchantments: [{id: "minecraft:power", lvl: 5s}]}}, {}], HandDropChances: [0.0f, 0.0f], Attributes: [{Name: "generic.max_health", Base: 250}]}

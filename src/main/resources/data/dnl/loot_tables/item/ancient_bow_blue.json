@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Ancient Bow",
+                "color": "#FFAA00",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "Arrow Strength",
+                  "color": "#AAAAAA",
+                  "italic": false
+                },
+                {
+                  "translate": "x1.5 Arrow Damage",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "Soul Tears",
+                  "color": "#AAAAAA",
+                  "italic": false
+                },
+                {
+                  "translate": "Drops ice cubes that spreads",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "into blue flame.",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "[Consumes 1 Ghast Tear]",
+                  "color": "#555555",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData: 4040003, dnl: {name: 'ancient_bow_blue', item: 1, id: 3}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+execute if entity @s[tag=!dnl.guardian_ghast.init] run function dnl:entity/guardian_ghast/init
+effect give @s minecraft:resistance 2 5 true
+execute if entity @s[tag=dnl.guardian_ghast.stunned] run function dnl:entity/guardian_ghast/stunned
+execute if entity @s[tag=dnl.guardian_ghast.stunned_long] run function dnl:entity/guardian_ghast/stunned_long
+execute if entity @s[tag=dnl.guardian_ghast.sleep] run function dnl:entity/guardian_ghast/sleep
+execute if entity @s[tag=dnl.guardian_ghast.awoken] run function dnl:entity/guardian_ghast/awoken
+execute if entity @s[tag=dnl.guardian_ghast.attacker] run function dnl:entity/guardian_ghast/attacker
+execute if entity @s[tag=dnl.guardian_ghast.red] run function dnl:entity/guardian_ghast/particle/red
+execute if entity @s[tag=dnl.guardian_ghast.yellow] run function dnl:entity/guardian_ghast/particle/yellow
+execute if entity @s[tag=dnl.guardian_ghast.blue] run function dnl:entity/guardian_ghast/particle/blue

@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bow",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "translate": "Heir of Hunter"
+    },
+    "description": {
+      "translate": "Pierce the ghost with Broken Bow"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/structures/hunters_grave/hunters_ghost",
+  "criteria": {
+    "kill hunters ghost with bow": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

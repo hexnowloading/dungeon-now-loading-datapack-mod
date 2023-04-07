@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:spider_eye"
+    },
+    "title": {
+      "translate": "Posion Eyes"
+    },
+    "description": {
+      "translate": "Squash the small eight eyes!"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/structures/crawlers_lair/locate",
+  "criteria": {
+    "killed_poison_eyes": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "killed_poison_eyes"
+    ]
+  ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "dnl:structures/railway_outpost/mob/vanilla_iron_golem",
+    "fallback": "dnl:structures/railway_outpost/mob/vanilla_iron_golem",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "dnl:railway_outpost/mob/vanilla_iron_golem",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

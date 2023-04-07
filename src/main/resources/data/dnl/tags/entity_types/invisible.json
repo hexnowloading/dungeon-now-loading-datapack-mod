@@ -1,0 +1,7 @@
+{
+  "description": "All item frames in 1.19.3",
+  "values": [
+    "minecraft:marker",
+    "minecraft:area_effect_cloud"
+  ]
+}

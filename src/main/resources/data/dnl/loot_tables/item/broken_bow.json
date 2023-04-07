@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Broken Bow",
+                "color": "#FFAA00",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "Regret",
+                  "color": "#AAAAAA",
+                  "italic": false
+                },
+                {
+                  "translate": "Defeat the Hunter Ghost with this",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "bow to release its soul.",
+                  "color": "#555555",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnl: {name: 'broken_bow', item: 1, id: 8}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Damage:377}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

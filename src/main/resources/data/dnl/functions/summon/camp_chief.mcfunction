@@ -1,0 +1,1 @@
+summon pillager ~ ~ ~ {DeathLootTable: "dnl:entity/camp_chief/death", Tags: ["dnl.boss", "dnl.mob", "dnl.tick", "dnl.camp_chief"], PersistenceRequired: 1b, Health: 300.0f, Attributes: [{Name: "generic.max_health", Base: 300}], HandDropChances: [0.0f, 0.0f]}

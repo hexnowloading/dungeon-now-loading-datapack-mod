@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:strength\"}"
+    },
+    "title": {
+      "translate": "Cleric \"Z\""
+    },
+    "description": {
+      "translate": "Slay the animated cleric"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/structures/cleric_hideout/locate",
+  "criteria": {
+    "killed_cleric_z": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "killed_cleric_z"
+    ]
+  ]
+}

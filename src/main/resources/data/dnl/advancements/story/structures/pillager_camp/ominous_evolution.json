@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:crossbow",
+      "nbt": "{CustomModelData:4040007}"
+    },
+    "title": {
+      "translate": "Bad Omen, but not for Me"
+    },
+    "description": {
+      "translate": "Evolve either the ominous crossbow or axe."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "dnl:story/structures/pillager_camp/obtain_all_ominous_tools",
+  "criteria": {
+    "royal ominous axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_axe"
+            ],
+            "nbt": "{dnl: { name:'royal_ominous_axe'}}"
+          }
+        ]
+      }
+    },
+    "royal ominous crossbow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crossbow"
+            ],
+            "nbt": "{dnl: { name:'royal_ominous_crossbow'}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "royal ominous axe",
+      "royal ominous crossbow"
+    ]
+  ]
+}

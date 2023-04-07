@@ -1,0 +1,78 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Poison Rapier",
+                "color": "#FFAA00",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "Stinger",
+                  "color": "#AAAAAA",
+                  "italic": false
+                },
+                {
+                  "translate": "Deals Poison. Attacking a mob that",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "already has the Poison effect will",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "stack the effect level (max 4).",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "Overdose",
+                  "color": "#AAAAAA",
+                  "italic": false
+                },
+                {
+                  "translate": "When the effect level exceeds the",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "maximum, it will deal instant damage II",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "and resets the effect level to poison I.",
+                  "color": "#555555",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData: 4041007, dnl: {name: 'poison_rapier', item: 1, id: 1007}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnl:{tier:1}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

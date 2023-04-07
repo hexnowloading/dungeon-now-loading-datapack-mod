@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Golem Heart Leggings",
+                "color": "#FFAA00",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "Required Piece",
+                  "color": "#AAAAAA",
+                  "italic": false
+                },
+                {
+                  "translate": "Full Set",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "Heavy Body",
+                  "color": "#AAAAAA",
+                  "italic": false
+                },
+                {
+                  "translate": "Gains Resistance I, but also",
+                  "color": "#555555",
+                  "italic": false
+                },
+                {
+                  "translate": "affected by Slowness I.",
+                  "color": "#555555",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData: 4043003, dnl: {name: 'heavy_iron_armor', item: 1, id: 3003}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnl:{tier: 1,armor: 3}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

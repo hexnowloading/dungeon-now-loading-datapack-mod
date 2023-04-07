@@ -1,0 +1,6 @@
+{
+  "parent": "dnl:item/royal_ominous_crossbow",
+  "textures": {
+    "layer0": "dnl:item/royal_ominous_crossbow/firework"
+  }
+}

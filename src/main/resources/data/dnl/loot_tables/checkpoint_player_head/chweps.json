@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"Chweps\",display:{Name:'{\"text\":\"Chweps\\'s Head\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"translate\":\"Wearing this head gives you +5 attack\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"when using True Ice Bows.\",\"color\":\"gray\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

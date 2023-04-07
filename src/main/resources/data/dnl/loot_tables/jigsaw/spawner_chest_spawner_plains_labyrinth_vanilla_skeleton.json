@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:silverfish_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Vanilla Skeleton Spawner Chest Spawner Jigsaw",
+                "color": "#FF55FF",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:marker\",Tags:[\"dnl.marker\",\"dnl.jigsaw\",\"dnl.spawner_chest_spawner\",\"dnl.spawner_chest_spawner_jigsaw_vanilla_skeleton\"]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
