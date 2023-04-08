@@ -147,7 +147,7 @@
               "function": "minecraft:set_name",
               "name": [
                 {
-                  "text": "Deep Dive Potion",
+                  "translate": "Deep Dive Potion",
                   "color": "gold",
                   "italic": false
                 }

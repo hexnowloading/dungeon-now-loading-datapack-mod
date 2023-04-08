@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"Mitchy_Moo\",display:{Name:'{\"text\":\"Mitchy_Moo\\'s Head\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"translate\":\"Get me out of this chest! PLEASE!\",\"color\":\"gray\",\"italic\":false}']}}"
+              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"Mitchy_Moo\",display:{Name:'{\"translate\":\"Mitchy_Moo\\'s Head\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"translate\":\"Get me out of this chest! PLEASE!\",\"color\":\"gray\",\"italic\":false}']}}"
             }
           ]
         }

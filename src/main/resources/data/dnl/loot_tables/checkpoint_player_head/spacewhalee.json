@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"SpaceWhalee\",display:{Name:'{\"text\":\"SpaceWhalee\\'s Head\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"translate\":\"Swim Like  A Whalee Sting Like A Whalee\",\"color\":\"gray\",\"italic\":false}']}}"
+              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"SpaceWhalee\",display:{Name:'{\"translate\":\"SpaceWhalee\\'s Head\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"translate\":\"Swim Like  A Whalee Sting Like A Whalee\",\"color\":\"gray\",\"italic\":false}']}}"
             }
           ]
         }

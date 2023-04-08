@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"Unavalible_User\",display:{Name:'{\"text\":\"Unavalible_User\\'s Head\",\"color\":\"dark_purple\",\"italic\":false}',Lore:['{\"translate\":\"[Discord Helper]\",\"color\":\"red\",\"italic\":false}','{\"translate\":\"The preceding was a paid announcement,\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"and does not necessarily reflect the\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"opinion of the user!\",\"color\":\"gray\",\"italic\":false}']}}"
+              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"Unavalible_User\",display:{Name:'{\"translate\":\"Unavalible_User\\'s Head\",\"color\":\"dark_purple\",\"italic\":false}',Lore:['{\"translate\":\"[Discord Helper]\",\"color\":\"red\",\"italic\":false}','{\"translate\":\"The preceding was a paid announcement,\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"and does not necessarily reflect the\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"opinion of the user!\",\"color\":\"gray\",\"italic\":false}']}}"
             }
           ]
         }

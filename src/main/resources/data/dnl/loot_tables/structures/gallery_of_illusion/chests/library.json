@@ -21,7 +21,7 @@
               "function": "minecraft:set_name",
               "name": [
                 {
-                  "text": "Totem of Undying II",
+                  "translate": "Totem of Undying II",
                   "color": "yellow",
                   "italic": false
                 }

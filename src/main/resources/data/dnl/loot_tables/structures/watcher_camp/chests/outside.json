@@ -159,7 +159,7 @@
               "function": "minecraft:set_name",
               "name": [
                 {
-                  "text": "Arrow of Strayer",
+                  "translate": "Arrow of Strayer",
                   "color": "gold",
                   "italic": false
                 }

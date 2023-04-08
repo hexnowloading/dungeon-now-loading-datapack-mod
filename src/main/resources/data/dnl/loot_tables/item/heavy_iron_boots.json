@@ -49,7 +49,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData: 4043003, dnl: {name: 'heavy_iron_armor', item: 1, id: 3003}}"
+              "tag": "{dnl: {name: 'heavy_iron_armor', item: 1, id: 3003}}"
             },
             {
               "function": "minecraft:set_nbt",

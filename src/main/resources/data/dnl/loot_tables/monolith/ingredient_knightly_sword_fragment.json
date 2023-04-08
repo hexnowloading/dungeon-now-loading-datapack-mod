@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:snow_golem_spawn_egg",
+          "name": "minecraft:polar_bear_spawn_egg",
           "functions": [
             {
               "function": "minecraft:set_name",

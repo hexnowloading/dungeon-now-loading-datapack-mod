@@ -93,7 +93,7 @@
               "function": "minecraft:set_name",
               "name": [
                 {
-                  "text": "Traveling Compass",
+                  "translate": "Traveling Compass",
                   "color": "gold",
                   "italic": false
                 }
