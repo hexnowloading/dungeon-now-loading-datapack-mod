@@ -1,0 +1,6 @@
+{
+  "parent": "dnl:item/fleshbone_bow",
+  "textures": {
+    "layer0": "dnl:item/fleshbone_bow/pulling_2"
+  }
+}
