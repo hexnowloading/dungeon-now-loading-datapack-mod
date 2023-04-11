@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:the_end",
+        "to": "minecraft:overworld"
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnl:item/abstract_forbidden_fruit/changed_dimension"
+  }
+}

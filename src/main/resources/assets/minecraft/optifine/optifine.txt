@@ -1,0 +1,1 @@
+Delete this file when the copy_file plugin is fixed.

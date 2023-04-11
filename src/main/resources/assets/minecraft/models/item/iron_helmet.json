@@ -9,12 +9,6 @@
         "custom_model_data": 4043002
       },
       "model": "dnl:item/golem_heart_helmet"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 4043003
-      },
-      "model": "dnl:item/heavy_iron_helmet"
     }
   ]
 }

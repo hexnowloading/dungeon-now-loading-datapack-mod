@@ -22,6 +22,7 @@ execute if entity @s[tag=dnl.sinkhole_drowned] run function dnl:entity/sinkhole_
 execute if entity @s[tag=dnl.slime_core] run function dnl:entity/slime_core/main
 execute if entity @s[tag=dnl.station_chief] run function dnl:entity/station_chief/main
 execute if entity @s[tag=dnl.station_chief_ravager] run function dnl:entity/station_chief_ravager/main
+execute if entity @s[tag=dnl.test_skeleton] run function dnl:entity/test_skeleton/main
 execute if entity @s[tag=dnl.the_champion] run function dnl:entity/the_champion/main
 execute if score @s dnl.mainhand matches 1001 run function dnl:item/olympus_charger/mob_tick
 execute if score @s dnl.offhand matches 2001 run function dnl:item/ancient_pickaxe/mob_tick_offhand

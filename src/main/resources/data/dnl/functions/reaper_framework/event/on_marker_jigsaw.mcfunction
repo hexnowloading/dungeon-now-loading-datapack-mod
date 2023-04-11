@@ -93,6 +93,7 @@ execute if entity @s[tag=dnl.minion_skeleton_melee] run function dnl:util/mob/ji
 execute if entity @s[tag=dnl.minion_skeleton_range] run function dnl:util/mob/jigsaw/minion_skeleton_range
 execute if entity @s[tag=dnl.minion_skeleton_range_poison] run function dnl:util/mob/jigsaw/minion_skeleton_range_poison
 execute if entity @s[tag=dnl.minion_charged_creeper_poison] run function dnl:util/mob/jigsaw/minion_charged_creeper_poison
+execute if entity @s[tag=dnl.test_skeleton] run function dnl:util/mob/jigsaw/test_skeleton
 execute if entity @s[tag=dnl.the_champion] run function dnl:util/mob/jigsaw/the_champion
 execute if entity @s[tag=dnl.vanilla_witch] run function dnl:util/mob/jigsaw/vanilla_witch
 execute if entity @s[tag=dnl.vanilla_pillager] run function dnl:util/mob/jigsaw/vanilla_pillager

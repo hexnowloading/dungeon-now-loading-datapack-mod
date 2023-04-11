@@ -28,22 +28,6 @@
               ]
             },
             {
-              "function": "minecraft:set_lore",
-              "entity": "this",
-              "lore": [
-                {
-                  "translate": "A poppy recieved from the iron",
-                  "color": "#555555",
-                  "italic": false
-                },
-                {
-                  "translate": "golem in the forgotten field.",
-                  "color": "#555555",
-                  "italic": false
-                }
-              ]
-            },
-            {
               "function": "minecraft:set_nbt",
               "tag": "{dnl: {name: 'rusted_iron_fragment', item: 1, id: 8001}}"
             },
