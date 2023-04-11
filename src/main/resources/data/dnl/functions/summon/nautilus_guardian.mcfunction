@@ -1,1 +1,0 @@
-summon elder_guardian ~ ~ ~ {DeathLootTable: "dnl:entity/nautilus_guardian/death", Tags: ["dnl.boss", "dnl.mob", "dnl.tick", "dnl.nautilus_guardian"], PersistenceRequired: 1b, Health: 90.0f, Attributes: [{Name: "generic.max_health", Base: 90}]}

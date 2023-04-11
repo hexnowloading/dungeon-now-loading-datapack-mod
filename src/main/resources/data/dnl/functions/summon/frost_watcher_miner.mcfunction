@@ -1,1 +1,0 @@
-summon skeleton ~ ~ ~ {Tags: ["dnl.mob", "dnl.frost_watcher_miner"], PersistenceRequired: 1b, HandItems: [{id: "minecraft:iron_pickaxe", Count: 1b}, {}], HandDropChances: [0.0f, 0.0f], ArmorItems: [{}, {}, {}, {id: "minecraft:chainmail_helmet", Count: 1b}], ArmorDropChances: [0.0f, 0.0f, 0.0f, 0.0f]}

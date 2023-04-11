@@ -1,7 +1,0 @@
-{
-  "description": "Non Solid Block list from unknown version. Have to be updated.",
-  "values": [
-    "minecraft:chest",
-    "minecraft:trapped_chest"
-  ]
-}

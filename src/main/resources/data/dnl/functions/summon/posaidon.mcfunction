@@ -1,1 +1,0 @@
-summon drowned ~ ~ ~ {DeathLootTable: "dnl:entity/posaidon/death", Tags: ["dnl.boss", "dnl.mob", "dnl.tick", "dnl.posaidon"], PersistenceRequired: 1b, Health: 100.0f, Attributes: [{Name: "generic.max_health", Base: 100}], HandItems: [{id: "minecraft:trident", Count: 1b}, {id: "minecraft:shield", Count: 1b}]}

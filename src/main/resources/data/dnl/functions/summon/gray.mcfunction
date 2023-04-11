@@ -1,1 +1,0 @@
-summon wolf ~ ~ ~ {Anger: 0, Age: -20000, Tags: ["dnl.mob", "dnl.tick", "dnl.gray"], PersistenceRequired: 1b, Health: 40.0f, Attributes: [{Name: "generic.max_health", Base: 40}], CollarColor: 8b, CustomName: '{"translate":"Gray","color":"gray","bold":true,"italic":false}'}

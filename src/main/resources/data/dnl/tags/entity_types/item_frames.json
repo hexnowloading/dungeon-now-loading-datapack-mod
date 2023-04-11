@@ -1,7 +1,0 @@
-{
-  "description": "All item frames in 1.19.3",
-  "values": [
-    "minecraft:item_frame",
-    "minecraft:glow_item_frame"
-  ]
-}

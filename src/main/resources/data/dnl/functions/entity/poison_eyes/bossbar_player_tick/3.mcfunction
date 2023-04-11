@@ -1,3 +1,0 @@
-execute as @a[distance=..30] run function dnl:entity/poison_eyes/bossbar_sphere/3
-execute as @a[tag=!dnl.poison_eyes.in_sphere_3] run bossbar set dnl:bossbar3 visible false
-tag @a remove dnl.poison_eyes.in_sphere_3

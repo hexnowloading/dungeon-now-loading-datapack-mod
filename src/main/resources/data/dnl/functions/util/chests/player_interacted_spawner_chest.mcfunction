@@ -1,1 +1,0 @@
-function #dnl:reaper_framework/event_handler/on_player_interacted_spawner_chest

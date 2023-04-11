@@ -1,1 +1,0 @@
-data merge entity @s {LifeTime: 10, FireworksItem: {id: "firework_rocket", Count: 1, tag: {Fireworks: {Explosions: [{Type: 4, Flicker: 1b, Trail: 1b, Colors: [I; 9946289], FadeColors: [I; 4754055]}, {Type: 4, Flicker: 1b, Trail: 1b, Colors: [I; 9946289], FadeColors: [I; 4754055]}, {Type: 4}, {Type: 4}]}}}}

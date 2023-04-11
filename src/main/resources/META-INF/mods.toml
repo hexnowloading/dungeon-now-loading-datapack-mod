@@ -3,7 +3,7 @@ loaderVersion="[43,)"
 license="All rights reserved"
 [[mods]]
 modId="dungeonnowloading"
-version="18.0-1.19.2"
+version="18.2-1.19.2"
 displayName="Dungeon Now Loading Mod"
 logoFile="pack.png"
 credits="Hexnowloading"

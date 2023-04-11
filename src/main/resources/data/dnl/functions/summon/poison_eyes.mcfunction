@@ -1,1 +1,0 @@
-summon cave_spider ~ ~ ~ {DeathLootTable: "dnl:entity/poison_eyes/death", Tags: ["dnl.boss", "dnl.mob", "dnl.tick", "dnl.poison_eyes"], PersistenceRequired: 1b, Health: 180.0f, Attributes: [{Name: "generic.max_health", Base: 180}, {Name: "generic.movement_speed", Base: 0.45d}, {Name: "generic.attack_damage", Base: 5.0d}]}
