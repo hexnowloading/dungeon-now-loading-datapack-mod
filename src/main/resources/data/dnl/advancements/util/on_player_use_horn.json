@@ -12,6 +12,6 @@
     }
   },
   "rewards": {
-    "function": "reaper_framework:__internal__/event_handler/on_player_use_horn/use_horn"
+    "function": "dnl:util/goat_horn/on_player_use_horn"
   }
 }

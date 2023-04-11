@@ -285,6 +285,26 @@
           "blocked": false
         }
       }
+    },
+    "is_projectile": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_projectile": true
+          }
+        }
+      }
+    },
+    "not_projectile": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_projectile": false
+          }
+        }
+      }
     }
   },
   "requirements": [
@@ -336,6 +356,10 @@
     [
       "blocked_true",
       "blocked_false"
+    ],
+    [
+      "is_projectile",
+      "not_projectile"
     ]
   ],
   "rewards": {

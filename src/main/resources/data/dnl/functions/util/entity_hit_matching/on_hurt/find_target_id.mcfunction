@@ -1,4 +1,5 @@
 scoreboard players set #target_id dnl.eid 0
+scoreboard players reset #dnl.is_projectile dnl.boolean
 execute if entity @s[advancements={dnl:util/entity_hit_matching/on_hurt={bit_0_1=true}}] run scoreboard players add #target_id dnl.eid 1
 execute if entity @s[advancements={dnl:util/entity_hit_matching/on_hurt={bit_0_2=true}}] run scoreboard players add #target_id dnl.eid 2
 execute if entity @s[advancements={dnl:util/entity_hit_matching/on_hurt={bit_1_1=true}}] run scoreboard players add #target_id dnl.eid 3
@@ -17,5 +18,6 @@ execute if entity @s[advancements={dnl:util/entity_hit_matching/on_hurt={bit_7_1
 execute if entity @s[advancements={dnl:util/entity_hit_matching/on_hurt={bit_7_2=true}}] run scoreboard players add #target_id dnl.eid 4374
 execute if entity @s[advancements={dnl:util/entity_hit_matching/on_hurt={bit_8_1=true}}] run scoreboard players add #target_id dnl.eid 6561
 execute if entity @s[advancements={dnl:util/entity_hit_matching/on_hurt={bit_8_2=true}}] run scoreboard players add #target_id dnl.eid 13122
+execute if entity @s[advancements={dnl:util/entity_hit_matching/on_hurt={is_projectile=true}}] run scoreboard players set #dnl.is_projectile dnl.boolean 1
 scoreboard players set #dnl.blocked dnl.boolean 0
 execute if entity @s[advancements={dnl:util/entity_hit_matching/on_hurt={blocked_true=true}}] run scoreboard players set #dnl.blocked dnl.boolean 1

@@ -28,7 +28,6 @@ bossbar add dnl:bossbar7 {"translate": "Reserved", "color": "aqua"}
 bossbar add dnl:bossbar8 {"translate": "Reserved", "color": "aqua"}
 bossbar add dnl:bossbar9 {"translate": "Reserved", "color": "aqua"}
 execute if score #dnl.developer_mode dnl.boolean matches 1 run tellraw @a {"translate": "Datapack has been reloaded!", "color": "gray", "italic": false}
-function dnl:reaper_framework/event_handler/in_world_setting/world_load
 scoreboard objectives add dnl.timer.hastening dummy
 scoreboard objectives add dnl.timer.lightning_storm dummy
 scoreboard objectives add dnl.timer.pumpkin_curse dummy
@@ -80,6 +79,7 @@ team add dnl.no_collision
 team modify dnl.no_collision collisionRule pushOwnTeam
 execute unless score #dnl.global_lid dnl.lid matches 0.. run scoreboard players set #dnl.global_lid dnl.lid 0
 advancement grant @a only dnl:story/general/new_start
+function dnl:reaper_framework/event_handler/on_player_load/player_load
 scoreboard objectives add dnl.raidbar_id dummy
 bossbar add dnl:raidbar0 {"translate": "Reserved", "color": "aqua"}
 bossbar add dnl:raidbar1 {"translate": "Reserved", "color": "aqua"}

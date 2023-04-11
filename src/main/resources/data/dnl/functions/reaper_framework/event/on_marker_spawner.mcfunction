@@ -94,6 +94,7 @@ execute if entity @s[tag=dnl.minion_skeleton_melee] if entity @p[distance=..32] 
 execute if entity @s[tag=dnl.minion_skeleton_range] if entity @p[distance=..32] at @s run function dnl:util/mob/spawner/minion_skeleton_range
 execute if entity @s[tag=dnl.minion_skeleton_range_poison] if entity @p[distance=..32] at @s run function dnl:util/mob/spawner/minion_skeleton_range_poison
 execute if entity @s[tag=dnl.minion_charged_creeper_poison] if entity @p[distance=..32] at @s run function dnl:util/mob/spawner/minion_charged_creeper_poison
+execute if entity @s[tag=dnl.test_skeleton] if entity @p[distance=..16] at @s run function dnl:util/mob/spawner/test_skeleton
 execute if entity @s[tag=dnl.the_champion] if entity @p[distance=..6] at @s run function dnl:util/mob/spawner/the_champion
 execute if entity @s[tag=dnl.vanilla_witch] if entity @p[distance=..16] at @s run function dnl:util/mob/spawner/vanilla_witch
 execute if entity @s[tag=dnl.vanilla_pillager] if entity @p[distance=..16] at @s run function dnl:util/mob/spawner/vanilla_pillager

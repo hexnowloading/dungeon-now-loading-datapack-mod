@@ -5,299 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/ferogreywolf7"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/gbbgerben"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/patzhere"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/dailysins"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/fxnrxr"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/lubcubs"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/de4f"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/fokastudio"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/protosloth"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/bla5tb0t"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/mr_lock9"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/cosmosins"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/sonkeyhong"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/73mm1n"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/verfulger"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/legolasandgimli"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/izluis10"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/awazz"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/universalt0ken"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/monkeyburrito"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/leonfreestyle"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/_herobrine__"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/kingofcozyness"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/twilighthunter00"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/ferjgu"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/whynautme"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/andyroobuilds"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/waffle_wizard_"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/coolfood"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/g2106"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/a1r2"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/spacewhalee"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/narwhalseattoast"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/astiengreenhart"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/taxgatherer"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/cheapymonkey"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/arkestm"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/abjures"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/16hir0"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/choicetheorem"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/silvercatz"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/babyyyyoda"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/realisticcarrot"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/oranwein"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/tucanonerd"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/igxo"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/aidenco"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/rxveen"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/wumpus0"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/doctorevil445"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/callm3gaming"
-        },
-        {
-          "type": "minecraft:loot_table",
           "name": "dnl:checkpoint_player_head/lucanoria"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/austxnsheep"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/the_maker_cr"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/notch"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/jingothejumper"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/beatbest"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/iod_peak"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/zwaluw"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/unavalible_user"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/othermongrel"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/kelythem"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/dinodesmond"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/zsh1nko_"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/q7_s"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/rito_the_great"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/jwoob"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/sensi_burger"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/polylimp"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/archangela"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/titustit"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/rasmusveike"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/emberpvp"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/jerhom"
         },
         {
           "type": "minecraft:loot_table",
@@ -305,43 +13,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/chweps"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/mitchy_moo"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/theplagueducktor"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/fly"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/rainbowsaber"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/mister16"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/fernangamer1605"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/naranciaplushie"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/tetartos"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/yoannbb2"
+          "name": "dnl:checkpoint_player_head/leonfreestyle"
         },
         {
           "type": "minecraft:loot_table",
@@ -349,39 +21,15 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/thorn_123"
+          "name": "dnl:checkpoint_player_head/othermongrel"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/flamingbutter05"
+          "name": "dnl:checkpoint_player_head/legolasandgimli"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/adhscientist"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/kaarter"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/homeless_mage"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/sebass_r"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/davebxb"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/nova_ember"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/bluxxqua"
+          "name": "dnl:checkpoint_player_head/igxo"
         },
         {
           "type": "minecraft:loot_table",
@@ -389,47 +37,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/fogggyhead"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/tezlatower23"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/shanedon36"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/aischii"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/silver_ut"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/affifindsyou"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/technoblade"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/haisesasaki"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/sozzy189"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/lieriant"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/nikosblackwood"
+          "name": "dnl:checkpoint_player_head/wumpus0"
         },
         {
           "type": "minecraft:loot_table",
@@ -437,67 +45,11 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/not_whiteshockx"
+          "name": "dnl:checkpoint_player_head/affifindsyou"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/flipside114"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/realresistance"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/nam"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/cosmogyre"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/drunkaxeguy"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/elithris"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/hex_gone"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/sunny"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/bruhpp"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/dyzur"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/pancitoepic"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/dappercannibal"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/crisptex"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/wonder_islanders"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/what_is_his_name"
+          "name": "dnl:checkpoint_player_head/rxveen"
         },
         {
           "type": "minecraft:loot_table",
@@ -505,27 +57,83 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/venopsia"
+          "name": "dnl:checkpoint_player_head/twilighthunter00"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/akari7174"
+          "name": "dnl:checkpoint_player_head/austxnsheep"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/nexonmetromazer"
+          "name": "dnl:checkpoint_player_head/spacewhalee"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/jumpersniper61"
+          "name": "dnl:checkpoint_player_head/homeless_mage"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/trol_master"
+          "name": "dnl:checkpoint_player_head/realisticcarrot"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/sirgrunch"
+          "name": "dnl:checkpoint_player_head/nam"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/nova_ember"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/patzhere"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/bla5tb0t"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/ferjgu"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/andyroobuilds"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/gbbgerben"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/wonder_islanders"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/16hir0"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/dailysins"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/narwhalseattoast"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/bruhpp"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/yoannbb2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/sonkeyhong"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/g2106"
         },
         {
           "type": "minecraft:loot_table",
@@ -533,7 +141,247 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/parfaitement"
+          "name": "dnl:checkpoint_player_head/monkeyburrito"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/jwoob"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/fogggyhead"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/de4f"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/_herobrine__"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/mr_lock9"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/sebass_r"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/nikosblackwood"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/fokastudio"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/cosmogyre"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/ferogreywolf7"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/silver_ut"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/beatbest"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/venopsia"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/hex_gone"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/unavalible_user"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/rainbowsaber"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/callm3gaming"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/arkestm"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/adhscientist"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/the_maker_cr"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/naranciaplushie"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/haisesasaki"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/dyzur"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/zsh1nko_"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/kingofcozyness"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/coolfood"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/pancitoepic"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/chweps"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/trol_master"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/notch"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/kaarter"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/fernangamer1605"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/dappercannibal"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/q7_s"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/elithris"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/theplagueducktor"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/cheapymonkey"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/davebxb"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/oranwein"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/flamingbutter05"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/73mm1n"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/shanedon36"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/thorn_123"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/zwaluw"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/flipside114"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/morgantreeman"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/archangela"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/taxgatherer"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/polylimp"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/lubcubs"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/akari7174"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/drunkaxeguy"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/mister16"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/iod_peak"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/rasmusveike"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/jingothejumper"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/sunny"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/abjures"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/universalt0ken"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/awazz"
         },
         {
           "type": "minecraft:loot_table",
@@ -541,7 +389,159 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head/morgantreeman"
+          "name": "dnl:checkpoint_player_head/choicetheorem"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/jumpersniper61"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/waffle_wizard_"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/cosmosins"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/izluis10"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/dinodesmond"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/technoblade"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/mitchy_moo"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/verfulger"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/whynautme"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/kelythem"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/sirgrunch"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/aischii"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/sozzy189"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/tucanonerd"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/crisptex"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/protosloth"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/silvercatz"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/jerhom"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/emberpvp"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/rito_the_great"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/parfaitement"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/bluxxqua"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/tetartos"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/fxnrxr"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/sensi_burger"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/babyyyyoda"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/aidenco"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/fly"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/lieriant"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/tezlatower23"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/titustit"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/what_is_his_name"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/doctorevil445"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/astiengreenhart"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/realresistance"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/a1r2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/not_whiteshockx"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnl:checkpoint_player_head/nexonmetromazer"
         }
       ]
     }

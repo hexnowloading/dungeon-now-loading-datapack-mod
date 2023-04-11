@@ -93,6 +93,7 @@ execute if entity @s[tag=dnl.minion_skeleton_melee] run function dnl:summon/mini
 execute if entity @s[tag=dnl.minion_skeleton_range] run function dnl:summon/minion_skeleton_range
 execute if entity @s[tag=dnl.minion_skeleton_range_poison] run function dnl:summon/minion_skeleton_range_poison
 execute if entity @s[tag=dnl.minion_charged_creeper_poison] run function dnl:summon/minion_charged_creeper_poison
+execute if entity @s[tag=dnl.test_skeleton] run function dnl:summon/test_skeleton
 execute if entity @s[tag=dnl.the_champion] run function dnl:summon/the_champion
 execute if entity @s[tag=dnl.vanilla_witch] run function dnl:summon/vanilla_witch
 execute if entity @s[tag=dnl.vanilla_pillager] run function dnl:summon/vanilla_pillager

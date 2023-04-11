@@ -12,6 +12,11 @@
           "type": "minecraft:loot_table",
           "weight": 1,
           "name": "dnl:item/ominous_crossbow"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "dnl:item/ominous_horn"
         }
       ]
     },

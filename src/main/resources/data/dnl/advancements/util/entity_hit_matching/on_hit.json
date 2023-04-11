@@ -216,12 +216,31 @@
         }
       }
     },
+    "not_magic": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_magic": false
+          }
+        }
+      }
+    },
+    "is_projectile": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_projectile": true
+          }
+        }
+      }
+    },
     "not_projectile": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "damage": {
           "type": {
-            "is_magic": false,
             "is_projectile": false
           }
         }
@@ -230,7 +249,11 @@
   },
   "requirements": [
     [
+      "is_projectile",
       "not_projectile"
+    ],
+    [
+      "not_magic"
     ],
     [
       "bit_0_0",
